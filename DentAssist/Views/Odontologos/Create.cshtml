@@ -1,0 +1,57 @@
+@model DentAssist.Models.ViewModels.OdontologoViewModel
+
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear</h1>
+
+<h4>Odontologo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label asp-for="Nombre"></label>
+                <input asp-for="Nombre" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido"></label>
+                <input asp-for="Apellido" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Matricula"></label>
+                <input asp-for="Matricula" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="EspecialidadId">Especialidad</label>
+                <select asp-for="EspecialidadId" class="form-control"
+                        asp-items="@(ViewBag.EspecialidadId as SelectList)">
+                    <option value="">Seleccione una especialidad</option>
+                </select>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" type="password" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword"></label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary my-3">Crear Odontologo</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a los Odontologos</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

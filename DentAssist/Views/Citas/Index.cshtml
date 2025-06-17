@@ -1,0 +1,70 @@
+@model IEnumerable<DentAssist.Models.Entities.Cita>
+
+@{
+    ViewData["Title"] = "Citas";
+}
+
+<h1>Citas</h1>
+
+@if (User.IsInRole("Recepcionista"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Crear Nueva</a>
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Fecha - Hora
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duracion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Paciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Odontologo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @item.Fecha.ToString("dd-MM-yyyy HH:mm")
+            </td>
+            <td>
+                    @($"{(int)item.Duracion.TotalMinutes} minutos")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Paciente.Nombre)
+                    @Html.DisplayFor(modelItem => item.Paciente.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Odontologo.Nombre)
+                    @Html.DisplayFor(modelItem => item.Odontologo.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @if (User.IsInRole("Recepcionista"))
+                {
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a> @:|
+                }
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Detalles</a>
+                @if (User.IsInRole("Recepcionista"))
+                {
+                    @:| <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
