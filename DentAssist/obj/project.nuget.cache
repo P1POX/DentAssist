@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5f2CV4nPL70=",
+  "dgSpecHash": "j2peyN0x+8I=",
   "success": true,
   "projectFilePath": "C:\\net\\DentAssist\\DentAssist\\DentAssist.csproj",
   "expectedPackageFiles": [
@@ -132,6 +132,7 @@
     "C:\\Users\\xxxte\\.nuget\\packages\\nuget.projectmodel\\6.3.1\\nuget.projectmodel.6.3.1.nupkg.sha512",
     "C:\\Users\\xxxte\\.nuget\\packages\\nuget.protocol\\6.3.1\\nuget.protocol.6.3.1.nupkg.sha512",
     "C:\\Users\\xxxte\\.nuget\\packages\\nuget.versioning\\6.3.1\\nuget.versioning.6.3.1.nupkg.sha512",
+    "C:\\Users\\xxxte\\.nuget\\packages\\rotativa.aspnetcore\\1.4.0\\rotativa.aspnetcore.1.4.0.nupkg.sha512",
     "C:\\Users\\xxxte\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\xxxte\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\xxxte\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",

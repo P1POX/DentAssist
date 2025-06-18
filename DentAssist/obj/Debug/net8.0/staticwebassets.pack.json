@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\DentAssist.x7tla87o2l.bundle.scp.css"
     },
     {
+      "Id": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\Rotativa\\wkhtmltoimage.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltoimage.exe"
+    },
+    {
+      "Id": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
       "Id": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

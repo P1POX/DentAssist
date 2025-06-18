@@ -2305,6 +2305,170 @@
       ]
     },
     {
+      "Route": "Rotativa/wkhtmltoimage.exe",
+      "AssetFile": "Rotativa/wkhtmltoimage.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22761984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 01:31:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltoimage.kotkpvsdhy.exe",
+      "AssetFile": "Rotativa/wkhtmltoimage.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22761984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 01:31:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kotkpvsdhy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM="
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltoimage.exe"
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.5nb91tlvgf.exe",
+      "AssetFile": "Rotativa/wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22523904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 01:30:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5nb91tlvgf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs="
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltopdf.exe"
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.exe",
+      "AssetFile": "Rotativa/wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22523904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 01:30:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "css/site.css",
       "Selectors": [],

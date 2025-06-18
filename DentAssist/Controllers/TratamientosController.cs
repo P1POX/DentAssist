@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using DentAssist.Models.Data;
 using DentAssist.Models.Entities;
 using Microsoft.AspNetCore.Authorization;
+using Rotativa.AspNetCore;
 
 namespace DentAssist.Controllers
 {
@@ -169,5 +170,20 @@ namespace DentAssist.Controllers
         {
             return _context.Tratamientos.Any(e => e.Id == id);
         }
+
+        public IActionResult DescargarDetalleTratamiento(Guid id)
+        {
+            var model = _context.Tratamientos
+                .Include(t => t.Paciente)
+                .FirstOrDefault(t => t.Id == id);
+
+            if (model == null) return NotFound();
+
+            return new ViewAsPdf("Details", model)
+            {
+                FileName = $"Tratamiento_{model.Id}.pdf"
+            };
+        }
+
     }
 }

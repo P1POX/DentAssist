@@ -1,6 +1,7 @@
 using DentAssist.Models.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Rotativa.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -42,6 +43,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+RotativaConfiguration.Setup(app.Environment.ContentRootPath + Path.DirectorySeparatorChar + "wwwroot");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -49,6 +52,8 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseRotativa();
 
 app.MapRazorPages();
 

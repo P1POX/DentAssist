@@ -50,6 +50,40 @@
             @Html.DisplayFor(model => model.Observaciones)
         </dd>
     </dl>
+
+    @{
+        var tratamientos = ViewData["Tratamientos"] as List<DentAssist.Models.Entities.Tratamiento>;
+    }
+
+    @if (tratamientos != null && tratamientos.Any())
+    {
+        <h4>Tratamientos del paciente</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Costo</th>
+                    <th>Sesiones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var tratamiento in tratamientos)
+                {
+                    <tr>
+                        <td>@tratamiento.Nombre</td>
+                        <td>@tratamiento.Descripcion</td>
+                        <td>@tratamiento.Costo</td>
+                        <td>@tratamiento.CantidadSesiones</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No hay tratamientos para este paciente.</p>
+    }
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a> |

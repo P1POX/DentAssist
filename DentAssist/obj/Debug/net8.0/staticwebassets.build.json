@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2jnHnNiAzZnYP6qk7sf8l64H47GqryC1NS7Oe9pJaJE=",
+  "Hash": "jYxf4CeuSJH87ZBtwuzK+iDmmvKGmXKvC+PGpdWQ9tA=",
   "Source": "DentAssist",
   "BasePath": "_content/DentAssist",
   "Mode": "Default",
@@ -1317,6 +1317,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\Rotativa\\wkhtmltoimage.exe",
+      "SourceId": "DentAssist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\",
+      "BasePath": "_content/DentAssist",
+      "RelativePath": "Rotativa/wkhtmltoimage#[.{fingerprint}]?.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kotkpvsdhy",
+      "Integrity": "vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltoimage.exe"
+    },
+    {
+      "Identity": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "DentAssist",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\",
+      "BasePath": "_content/DentAssist",
+      "RelativePath": "Rotativa/wkhtmltopdf#[.{fingerprint}]?.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5nb91tlvgf",
+      "Integrity": "MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
     },
     {
       "Identity": "C:\\Users\\xxxte\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\css\\site.css",
@@ -9881,6 +9923,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltoimage.exe",
+      "AssetFile": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\Rotativa\\wkhtmltoimage.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22761984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 01:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltoimage.kotkpvsdhy.exe",
+      "AssetFile": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\Rotativa\\wkhtmltoimage.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22761984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 01:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kotkpvsdhy"
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltoimage.exe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vJcOt6NC3VD0UOIHk/hISj3W8xw2W0xNFYLutQyuGnM="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.5nb91tlvgf.exe",
+      "AssetFile": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22523904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 01:30:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5nb91tlvgf"
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltopdf.exe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.exe",
+      "AssetFile": "C:\\net\\DentAssist\\DentAssist\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22523904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 01:30:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MeiWrgQ1PvsUe7H57MTKF9SB6b0Pvz23Hh3DNSMZbKs="
         }
       ]
     }

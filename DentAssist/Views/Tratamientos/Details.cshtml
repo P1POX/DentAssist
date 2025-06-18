@@ -49,6 +49,9 @@
             @Html.DisplayFor(model => model.Odontologo.Apellido)
         </dd>
     </dl>
+    <a asp-action="DescargarDetalleTratamiento" asp-route-id="@Model.Id" class="btn btn-primary my-3">
+        Descargar PDF
+    </a>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a> |

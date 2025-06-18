@@ -22,6 +22,7 @@ namespace DentAssist.Controllers
         }
 
         // GET: Odontologos
+        [Authorize(Roles = "Administrador,Recepcionista")]
         public async Task<IActionResult> Index()
         {
             var appDbContext = _context.Odontologos.Include(o => o.Especialidad).Include(o => o.User);
@@ -29,6 +30,7 @@ namespace DentAssist.Controllers
         }
 
         // GET: Odontologos/Details/5
+        [Authorize(Roles = "Administrador,Recepcionista")]
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null)

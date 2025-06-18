@@ -76,6 +76,13 @@ namespace DentAssist.Controllers
                 return NotFound();
             }
 
+            // Obtener tratamientos del paciente
+            var tratamientos = await _context.Tratamientos
+                .Where(t => t.PacienteId == cita.PacienteId && t.OdontologoId == cita.OdontologoId)
+                .ToListAsync();
+
+            ViewData["Tratamientos"] = tratamientos;
+
             return View(cita);
         }
 
